@@ -1,0 +1,31 @@
+from tkinter import *
+import random
+window = Tk()
+window.geometry("300x300")
+window.title("шифрования")
+LabelFrame1 = LabelFrame(text="Данные")
+LabelFrame1.pack(fill=X)
+LabelFrame2 = LabelFrame(text="Зашифрованые сообщения")
+LabelFrame2.pack(fill=X)
+label2 = Label(LabelFrame1, text='введите ключ' ,font=('Arial', 30, 'bold'))
+label2.pack(padx = 45, pady = 20)
+keybox = Entry(LabelFrame1, font=('Arial', 15, 'bold'), width=15)
+keybox.pack(padx = 45, pady = 20)
+label3 = Label(LabelFrame1, text='Введите текст' ,font=('Arial', 30, 'bold'))
+label3.pack(padx = 150, pady = 50)
+plaintextbox = Entry(LabelFrame1, font=('Arial', 15, 'bold'), width=15)
+plaintextbox.pack(padx = 250, pady = 20)
+label1 = Label(LabelFrame2, text='Шифр Цезаря' ,font=('Arial', 30, 'bold'))
+label1.pack(padx = 150, pady = 20)
+label4 = Label(LabelFrame2, text='' ,font=('Arial', 30, 'bold'))
+label4.pack(padx = 150, pady = 20)
+button = Button(text= "Зашифровать", font=('Arial', 15, 'bold'))
+button.pack(padx = 20, pady = 13)
+label5 = Label(LabelFrame2, text='Шифр Атбаш' ,font=('Arial', 30, 'bold'))
+label5.pack(padx = 150, pady = 20)
+label6 = Label(LabelFrame2, text='' ,font=('Arial', 30, 'bold'))
+label6.pack(padx = 150, pady = 20)
+
+
+if __name__ == "__main__":
+    window.mainloop()
