@@ -2,7 +2,7 @@ import telebot
 import datetime
 from pyexpat.errors import messages
 
-bot = telebot.TeleBot("7799775236:AAHYPJxOBWTQiGkxb5RtMCZ_FIGOnjCryWs")
+bot = telebot.TeleBot("")
 keybord1 = telebot.types.ReplyKeyboardMarkup (True)
 keybord1.row('Привет', 'Пока')
 keybord1.row('Дата', 'Время', "День недели")
