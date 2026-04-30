@@ -12,7 +12,7 @@ Perm.kick_members = True
 intents.members = True
 intents.message_content = True
 
-TOKEN = 'MTM2NTAwODkzMzEyMjc0MDI2NA.G1DvpB.a8yoedzZTTBzPy44I4S_k5dnpwtM8_AVG6g2GM'
+TOKEN = ''
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents, permissions=Perm)
